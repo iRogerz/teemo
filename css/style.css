@@ -20,7 +20,7 @@ nav .nav-link{
 }
 .container-fluid{
     position: relative;
-    height: 80vh;
+    height: 90vh;
     background-image: url("../img/back.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,11 +76,10 @@ nav .nav-link{
     height: 40vh;
     margin: 16px;
 }
-
-
-
+.second{
+    margin-top: 35px;
+}
 .slick-nav{
-    margin-top: 20px;
     height: 5vh;
     background-color: #FCEFD9;
 }
@@ -96,8 +95,16 @@ nav .nav-link{
     color: white;
 }
 .slick-slider{
+    background-color: turquoise;
+    height: 60vh;
+}
+.slick-img{
+    background-color: tomato;
+}
+.slick-slider img{
     position: relative;
-    height: 54vh;
+    width: 100%;
+    height: 60vh;
 }
 .slick-slider .prev-arrow{
     position: absolute;
@@ -138,13 +145,12 @@ nav .nav-link{
     /* background-color:transparent; */
     background-color: tomato;
 }
-.slick-slider img{
-    margin: auto;
-    width: 100%;
-}
 
+.hot-article{
+    position: relative;
+    /* height: 60vh; */
+}
 .hot-article h5{
-    margin-top: 20px;
     background-color: #5c5d5d;   
     color: white;
     height: 5vh;
@@ -156,9 +162,39 @@ nav .nav-link{
 }
 
 .hot-article img{
-    margin-top: 15px;
-    margin-left: 5px;
-    width:140px;
-    height:140px
+    margin-top: 22px;
+    margin-left: 14px;
+    width:100%;
+    /* height:130px */
 }
-
+.img-rank{
+    position: absolute;
+    background-color: tomato;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    margin-top: 5px;
+}
+.img-rank p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hot-article .intro p{
+    position: relative;
+    padding-top: 40%;
+    font-size: 12px;
+    left: 0;
+}
+.third{
+    margin: 60px;
+    position: relative;
+}
+.third img{
+    width: 45%;
+    padding: 10px;
+    margin: auto;
+    /* vertical-align: middle; */
+}
