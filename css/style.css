@@ -78,6 +78,7 @@ nav .nav-link{
 }
 .second{
     margin-top: 35px;
+    position: relative;
 }
 .slick-nav{
     height: 5vh;
@@ -96,10 +97,13 @@ nav .nav-link{
 }
 .slick-slider{
     background-color: turquoise;
-    height: 60vh;
+    height: 70vh;
 }
 .slick-img{
+    position: relative;
     background-color: tomato;
+    height: 70vh;
+    bottom: 0;
 }
 .slick-slider img{
     position: relative;
