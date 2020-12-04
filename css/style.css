@@ -259,7 +259,8 @@ nav .nav-link{
     padding: 15px;
     /* display: inline; */
 }
-.subscribe h5{
+.subscribe .title{
+    font-size: 14px;
     margin-left: 35px;
     padding: 10px;
     padding-left: 25px;
@@ -275,6 +276,15 @@ nav .nav-link{
     margin-bottom: 40px;
     width: 75%;
     /* display: inline; */
+}
+.love-title{
+    font-size: 14px;
+    margin-left: 35px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;  
+    background-color: yellow;
+    border-radius: 10px;
 }
 .foot-middle p{
     margin-left: 50px;
