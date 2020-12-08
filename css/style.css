@@ -257,7 +257,7 @@ nav .nav-link{
 }
 .subscribe span{
     padding: 15px;
-    /* display: inline; */
+    display: block;
 }
 .subscribe .title{
     font-size: 14px;
@@ -289,4 +289,7 @@ nav .nav-link{
 .foot-middle p{
     margin-left: 50px;
     margin-right: 50px;
+}
+.foot-right {
+    display: block;
 }
